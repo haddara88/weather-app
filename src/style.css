@@ -1,23 +1,31 @@
 h1 {
+  background-image: url("images/weather.jpeg");
   font-family: roboto, sans serif;
-  background-image: url(images/weather.jpeg);
-  padding: 50px; 
-}
-input {
-  text-align: left;
-}
-h1 {
+  padding: 50px;
   color: honeydew;
   text-align: center;
   font-size: 80px;
 }
+.image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+input {
+  text-align: center;
+}
+
 body {
   border-radius: 40px;
   margin: 30px;
-  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, rgb(164, 78, 51) 90%);
-  padding: 50px; 
+  background: radial-gradient(
+    859px at 10% 20%,
+    rgb(245, 220, 154) 0%,
+    rgb(164, 78, 51) 90%
+  );
+  padding: 50px;
 }
- 
 label {
   font-weight: bold;
   color: black;
@@ -27,25 +35,30 @@ section {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  color;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 5px;
-  margin: 70px; 
-  
+  margin: 70px;
 }
-.fa-umbrella, .fa-cloud, .fa-wind {
+#current-location {
+  background-color: burlywood;
+}
+#search-color {
+  background-color: brown;
+}
+.fa-umbrella,
+.fa-cloud,
+.fa-wind {
   font-size: 25px;
-  position:relative;
+  position: relative;
   right: 25px;
   color: black;
-  
-   }
-   .fa-umbrella {
-     right: 35px;
-   }
- .main-weather {
-   font-size: 15px;
- }
+}
+.fa-umbrella {
+  right: 35px;
+}
+.main-weather {
+  font-size: 15px;
+}
 .sun {
   font-size: 30px;
   padding: 20px;
@@ -54,7 +67,6 @@ section {
 .search-forecast {
   text-align: left;
   margin-top: 50px;
-
 }
 .all-columns {
   font-weight: bold;
