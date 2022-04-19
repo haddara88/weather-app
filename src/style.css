@@ -16,6 +16,12 @@ input {
   text-align: center;
 }
 
+footer {
+  font-family: roboto, sans serif;
+}
+a {
+  color: rebeccapurple;
+}
 body {
   border-radius: 40px;
   margin: 30px;
